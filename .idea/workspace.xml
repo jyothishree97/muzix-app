@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c186951-0e99-4896-91a9-6ce1b428b61d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-pattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/java/com/stackroute/trackservice/TrackServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/java/com/stackroute/trackservice/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/java/com/stackroute/trackservice/controller/TrackController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/java/com/stackroute/trackservice/domain/Track.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/java/com/stackroute/trackservice/exception/GlobalException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/java/com/stackroute/trackservice/exception/TrackAlreadyExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/java/com/stackroute/trackservice/exception/TrackNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/java/com/stackroute/trackservice/repository/TrackRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/java/com/stackroute/trackservice/seeddata/ApplicationListenerImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/java/com/stackroute/trackservice/seeddata/CommandLineRunnerImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/java/com/stackroute/trackservice/service/TrackDummyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/java/com/stackroute/trackservice/service/TrackService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/java/com/stackroute/trackservice/service/TrackServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/resources/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/resources/application-prod.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/test/java/com/stackroute/trackservice/TrackServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/test/java/com/stackroute/trackservice/controller/TrackControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/test/java/com/stackroute/trackservice/repository/TrackRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-pattern/track-service-source/src/test/java/com/stackroute/trackservice/service/TrackServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/track-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/track-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/track-service/src/main/java/com/stackroute/trackservice/TrackServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/track-service/src/main/java/com/stackroute/trackservice/TrackServiceApplication.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api-gateway-pattern" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -45,6 +28,9 @@
   </component>
   <component name="ProjectId" id="1P92OmFMFhe3TSCOglJYMNi1alM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -97,11 +83,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrackServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.trackservice.TrackServiceApplication" />
+      <module name="track-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.trackservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.userservice.UserServiceApplication" />
+      <module name="userservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.userservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.EurekaServerApplication" />
-        <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.UserServiceApplication" />
         <item itemvalue="Application.ApiGatewayPatternApplication" />
+        <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.TrackServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -130,5 +144,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-gateway-pattern/src/main/java/com/stackroute/apigatewaypattern/ApiGatewayPatternApplication.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/eureka-server/src/main/java/com/stackroute/eurekaserver/EurekaServerApplication.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
